@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.card{
+    width: 22rem;
+    background-color: #9FD5DC;
+    box-shadow: 12px 12px 8px #bdd0d3;
+    box-shadow: 6px 6px 4px #bed8db;
+}
+
+.age, .register{
+    text-align: center;
+    padding-bottom: 0.7rem;
+    font-size: .8rem;
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.card--img-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    h3{
+        font-size: 1rem;
+    }
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 5.5rem;
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 5.5rem;
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 5.5rem;
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #289FED;
+    color: white;
+    margin-top: 2rem;
+}
